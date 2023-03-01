@@ -1,0 +1,1 @@
+const sumSalaries = salaries => Object.values(salaries).reduce((acc, item) => acc + item, 0)

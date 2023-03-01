@@ -1,0 +1,1 @@
+const getAverageAge = users => users.reduce((acc, item) => acc + item.age, 0) / users.length
